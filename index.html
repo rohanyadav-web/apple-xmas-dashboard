@@ -389,18 +389,18 @@
 <div class="kpi-strip" role="region" aria-label="Key performance indicators">
   <div class="kpi-cell">
     <div class="kpi-label">Total Christmas revenue</div>
-    <div class="kpi-value">$28.5<span style="font-size:1.5rem;">M</span></div>
+    <div class="kpi-value">€28.5<span style="font-size:1.5rem;">M</span></div>
     <div class="kpi-sub">Across all 11 product categories</div>
   </div>
   <div class="kpi-cell">
     <div class="kpi-label">Top revenue category</div>
     <div class="kpi-value kpi-accent">iPhone</div>
-    <div class="kpi-sub">$4.5M · 15.8% of total revenue</div>
+    <div class="kpi-sub">€4.5M · 15.8% of total revenue</div>
   </div>
   <div class="kpi-cell">
     <div class="kpi-label">Peak female shopping day</div>
     <div class="kpi-value">Sunday</div>
-    <div class="kpi-sub">$2.16M — highest single-gender day</div>
+    <div class="kpi-sub">€2.16M — highest single-gender day</div>
   </div>
   <div class="kpi-cell">
     <div class="kpi-label">Dominant payment method</div>
@@ -424,18 +424,18 @@
     <div class="insight-row">
       <div class="insight-tile accent1">
         <div class="insight-tile-label">Flagship driver</div>
-        <div class="insight-tile-stat">$4.5M</div>
-        <div class="insight-tile-desc">iPhone leads all categories — 58% more than the #2 product (Apple TV at $3.6M).</div>
+        <div class="insight-tile-stat">€4.5M</div>
+        <div class="insight-tile-desc">iPhone leads all categories — 58% more than the #2 product (Apple TV at €3.6M).</div>
       </div>
       <div class="insight-tile accent2">
         <div class="insight-tile-label">Placement opportunity</div>
         <div class="insight-tile-stat">iCloud</div>
-        <div class="insight-tile-desc">Lowest revenue at $1.1M despite being a subscription service — under-promoted at point of sale.</div>
+        <div class="insight-tile-desc">Lowest revenue at €1.1M despite being a subscription service — under-promoted at point of sale.</div>
       </div>
       <div class="insight-tile accent3">
         <div class="insight-tile-label">Hidden performer</div>
         <div class="insight-tile-stat">Services</div>
-        <div class="insight-tile-desc">$2.7M revenue with high margins — outperforms iPad and AirPods yet receives less shelf prominence.</div>
+        <div class="insight-tile-desc">€2.7M revenue with high margins — outperforms iPad and AirPods yet receives less shelf prominence.</div>
       </div>
     </div>
 
@@ -650,8 +650,8 @@
   const tickStyle = { color: '#8a8680', font: { family: "'DM Sans', sans-serif", size: 11, weight: '300' } };
   const gridStyle = { color: 'rgba(0,0,0,0.06)', lineWidth: 0.5 };
 
-  const fmtM = v => '$' + (v/1e6).toFixed(2) + 'M';
-  const fmtMshort = v => '$' + (v/1e6).toFixed(1) + 'M';
+  const fmtM = v => '€' + (v/1e6).toFixed(2) + 'M';
+  const fmtMshort = v => '€' + (v/1e6).toFixed(1) + 'M';
 
   /* ── 1. CATEGORY BAR ─────────────────────────────────── */
   new Chart(document.getElementById('catChart'), {
